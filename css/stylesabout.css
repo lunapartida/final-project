@@ -1,3 +1,144 @@
-body {
+
+/* HEADER SECTION */
+
+header nav {
+    background-color: orange;
+    color: #5D85C0;
+    height: 76px;
+    /* padding: 0 1rem; */
+    }
     
+    header nav ul {
+    list-style: none;
+    padding: 1.5rem;
+    }
+    
+    header nav > ul > li {
+        display: inline-block;
+    }
+    
+    header nav > ul > li > a {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: .5rem 1.5rem;
+    background-color:#D4C5E2;
+    font-weight:900;
+    font-family:cursive
+    }
+    
+    header nav ul > li > a:hover {
+    color: #b6d5f6;
+    background-color: #cc6ea8fd;
+    border: none;
+    }
+    
+    header> nav >ul > li > a:visited {
+        color:cadetblue
+    }
+    
+    header > h1 {
+        font-size: 3.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 4rem 0;
+        font-family:fantasy
+    
+    }
+
+
+body {
+    background-color: black;
+}
+
+#checkerboard {
+    position: relative;
+}
+
+.box { 
+    width: 100px;
+    height: 100px;
+
+background-color: #966BB0;
+
+margin-bottom: 1rem;
+
+display: inline-block;
+}
+
+.hide {
+    visibility: hidden;
+}
+#green {
+    background-color: greenyellow;
+}
+#blue {
+    background-color: blue;
+}
+#yellow {
+    background-color: yellow;
+}
+#orange {
+    background-color: orange;
+}
+#red {
+    background-color: red;
+}
+#pink {
+    background-color: hotpink;
+}
+/* main */
+
+main {
+    width: 1500px;
+    height: 800px;
+    background-color: rgba(255,255,255,0.50);
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+}
+
+h1 {
+    position: absolute;
+    top: 1%;
+    left: 30%;
+    color: black;
+    ;
+    font-size: 6rem;
+    font-style: italic;
+
+}
+
+/* ROW AND COLUMNS */
+
+section {
+    position: absolute;
+    margin: 3rem 2rem;
+    top: 20%;
+    left: 10%;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    background-color: lightblue;
+    border-radius: 25px;
+    padding: .5rem 4rem;
+    margin: 0 .5rem;
+}
+.column h2.heading {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: lightseagreen;
+}
+
+footer {
+    height: 100px;
+    background-color: #cc6ea8fd;
+    text-align: center;
+}
+
+footer p {
+    padding: 2.5rem 0;
 }
