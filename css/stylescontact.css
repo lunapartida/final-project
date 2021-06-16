@@ -1,3 +1,95 @@
-body {
+header, nav, section, article, aside, footer {
+    height: 100px
+  }
+  nav{
+    margin-bottom: 0.5%;
+    background-color: orange;
+
+}
+header nav {
+    background-color: #5D85C0;
+    color: #5D85C0;
+    height: 76px;
+    /* padding: 0 1rem; */
+    }
     
+    header nav ul {
+    list-style: none;
+    padding: 1.5rem;
+    }
+    
+    header nav > ul > li {
+        display: inline-block;
+    }
+    
+    header nav > ul > li > a {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: .5rem 1.5rem;
+    background-color:#D4C5E2;
+    font-weight:900;
+    font-family:cursive
+    }
+    
+    header nav ul > li > a:hover {
+    color: #b6d5f6;
+    background-color: #cc6ea8fd;
+    border: none;
+    }
+    
+    header> nav >ul > li > a:visited {
+        color:cadetblue
+    }
+/* HEADER */
+header {
+    position: relative;
+}
+
+header #hero {
+    height: 130px;
+    background: url("../img/hero.jpg") no-repeat center left;
+    background-size: cover;
+}
+
+header h1 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: rgb(228, 228, 228);
+    ;
+    font-size: 6rem;
+    font-style: italic;
+}
+
+  article {
+    margin-top: 6.5%;
+    background-color: palevioletred;
+    height: 500px;
+    float:left;
+    clear:left;
+
+  }
+  div > article {
+      width: 50%;
+  }
+  /* div {
+      float:left;
+  } */
+ aside {
+    margin-top: 6.5%;
+    background-color:yellowgreen;
+   height: 500px;
+  }
+  footer {
+    background-color: purple;
+   clear:both;
+  }
+  footer {
+    height: 100px;
+
+    text-align: center;
+}
+
+footer p {
+    padding: 2.0rem 0;
 }

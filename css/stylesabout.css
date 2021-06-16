@@ -3,7 +3,7 @@
 
 header nav {
     background-color: orange;
-    color: #5D85C0;
+    color: greenyellow;
     height: 76px;
     /* padding: 0 1rem; */
     }
@@ -21,14 +21,14 @@ header nav {
     border: 1px solid;
     border-radius: 20px;
     padding: .5rem 1.5rem;
-    background-color:#D4C5E2;
+    background-color:greenyellow;
     font-weight:900;
     font-family:cursive
     }
     
     header nav ul > li > a:hover {
-    color: #b6d5f6;
-    background-color: #cc6ea8fd;
+    color: red;
+    background-color: yellow;
     border: none;
     }
     
