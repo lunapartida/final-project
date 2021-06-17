@@ -2,13 +2,15 @@ form {
     padding: 2rem 2.5rem;
     background-color: lightsteelblue;
 }
+
 form .form_group {
     background-color: lightgray;
     padding: 1rem;
     margin: .5rem 0;
 }
-form > .form_group > input,
-form > .form_group > select
-form > .form_group > textarea, {
+
+
+form>.form_group>select,
+form>.form_group>textarea {
     display: block;
 }

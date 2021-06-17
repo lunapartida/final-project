@@ -9,48 +9,46 @@
 </head>
 <body>
 <header>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="contact.html">contact</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <form>
-        <div class="form_group"> 
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <div class="form_group">
+                <label for="nameInput">Name</label>
+                <input type="text" id="nameInput" />
+            </div>
 
-        <label for="nameInput">Name</label>
-        <input type="text" id="nameInput" />
-        </div>
-        <div class="form_group"> 
-        <label for="emailInput">Email</label>
-        <input type="email" id="emailInput" />
-        </div>
-        <div class="form_group"> 
-        <label for="subjectInput">Subject</label>
-        <select id="subjectInput"> 
-            <option value="inquiry">Inquiry</option>
-            <option value="question">Question</option>
-        </select>
-        </div>
-        <div class="form_group"> 
-        <label for="messageInput">Message</label>
-        <textarea id="messageInput"> </textarea>
-        </div>
-        
-        <!-- <button type="submit">Submit</button> -->
+            <div class="form_group">
+                <label for="emailInput">Email</label>
+                <input type="email" id="emailInput" />
+            </div>
 
-        <input type="submit" value="submit">
+            <div class="form_group">
+                <label for="subjectInput">Subject</label>
+                <select id="subjectInput">
+                    <option value="inquiry">Inquiry</option>
+                    <option value="question">Question</option>
+                </select>
+            </div>
 
-    </form>
-</main>
-<footer>
-    
-</footer>
+            <div class="form_group">
+                <label for="messageInput">Message</label>
+                <textarea id="messageInput"></textarea>
+            </div>
+
+            <!-- <button type="submit">Submit</button> -->
+            <input type="submit" value="Submit" />
+        </form>
+    </main>
+    <footer></footer>
 </body>
 </html>
