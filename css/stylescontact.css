@@ -1,14 +1,8 @@
-header, nav, section, article, aside, footer {
-    height: 100px
-  }
-  nav{
-    margin-bottom: 0.5%;
-    background-color: orange;
+/* HEADER SECTION */
 
-}
 header nav {
-    background-color: #5D85C0;
-    color: #5D85C0;
+    background-color: yellow;
+    color: orange;
     height: 76px;
     /* padding: 0 1rem; */
     }
@@ -26,70 +20,131 @@ header nav {
     border: 1px solid;
     border-radius: 20px;
     padding: .5rem 1.5rem;
-    background-color:#D4C5E2;
+    background-color:#7fff00;
     font-weight:900;
     font-family:cursive
     }
     
     header nav ul > li > a:hover {
-    color: #b6d5f6;
-    background-color: #cc6ea8fd;
+    color: #7fff00;
+    background-color: #ff822e;
     border: none;
     }
     
     header> nav >ul > li > a:visited {
-        color:cadetblue
+        color: #fb33db;
     }
+    
 /* HEADER */
 header {
     position: relative;
 }
-
 header #hero {
+    position: relative;
     height: 130px;
-    background: url("../img/hero.jpg") no-repeat center left;
-    background-size: cover;
-}
+    background: url(../img/hero.jpg)
 
+}
 header h1 {
-    position: absolute;
+    position: relative;
     top: 40%;
-    left: 40%;
+    left: 35%;
     color: rgb(228, 228, 228);
     ;
     font-size: 6rem;
     font-style: italic;
 }
 
-  article {
-    margin-top: 6.5%;
-    background-color: palevioletred;
-    height: 500px;
-    float:left;
-    clear:left;
+body {
+    background-color: black;
+}
 
-  }
-  div > article {
-      width: 50%;
-  }
-  /* div {
-      float:left;
-  } */
- aside {
-    margin-top: 6.5%;
-    background-color:yellowgreen;
-   height: 500px;
-  }
-  footer {
-    background-color: purple;
-   clear:both;
-  }
-  footer {
+#checkerboard {
+    position: relative;
+}
+
+.box { 
+    width: 100px;
     height: 100px;
 
+background-color: #ff822e;
+
+margin-bottom: 1rem;
+
+display: inline-block;
+}
+
+.hide {
+    visibility: hidden;
+}
+#green {
+    background-color: #7fff00;
+}
+#blue {
+    background-color: #0310ea;
+}
+#yellow {
+    background-color: #fcf340;
+}
+#pink {
+    background-color: #fb33db;
+}
+/* main */
+
+main {
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(0, 255, 0, 0.50);
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+}
+
+h1 {
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    color: black;
+    ;
+    font-size: 6rem;
+    font-style: italic;
+
+}
+
+/* ROW AND COLUMNS */
+
+section {
+    position: absolute;
+    margin: 3rem 2rem;
+    top: 20%;
+    left: 25%;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    background-color: #fcf340;
+    border-radius: 25px;
+    padding: .5rem 4rem;
+    margin: 0 .5rem;
+}
+.column h2.heading {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: lightseagreen;
+}
+p {
+    color: #0310ea;
+}
+
+footer {
+    height: 100px;
+    background-color: #cc6ea8fd;
     text-align: center;
 }
 
 footer p {
-    padding: 2.0rem 0;
+    padding: 2.5rem 0;
 }

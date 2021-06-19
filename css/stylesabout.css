@@ -95,7 +95,7 @@ main {
 h1 {
     position: absolute;
     top: 1%;
-    left: 20%;
+    left: 35%;
     color: black;
     ;
     font-size: 6rem;
@@ -109,7 +109,7 @@ section {
     position: absolute;
     margin: 3rem 2rem;
     top: 20%;
-    left: 10%;
+    left: 25%;
 }
 
 .column {
