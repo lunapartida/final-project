@@ -2,8 +2,8 @@
 /* HEADER SECTION */
 
 header nav {
-    background-color: orange;
-    color: greenyellow;
+    background-color: yellow;
+    color: orange;
     height: 76px;
     /* padding: 0 1rem; */
     }
@@ -21,26 +21,26 @@ header nav {
     border: 1px solid;
     border-radius: 20px;
     padding: .5rem 1.5rem;
-    background-color:greenyellow;
+    background-color:#7fff00;
     font-weight:900;
     font-family:cursive
     }
     
     header nav ul > li > a:hover {
-    color: red;
-    background-color: yellow;
+    color: #7fff00;
+    background-color: #ff822e;
     border: none;
     }
     
     header> nav >ul > li > a:visited {
-        color:cadetblue
+        color: #fb33db;
     }
     
     header > h1 {
         font-size: 3.5rem;
-        text-align: center;
+        text-align: end;
         text-transform: uppercase;
-        margin: 4rem 0;
+        margin: 2rem 0;
         font-family:fantasy
     
     }
@@ -58,7 +58,7 @@ body {
     width: 100px;
     height: 100px;
 
-background-color: #966BB0;
+background-color: #ff822e;
 
 margin-bottom: 1rem;
 
@@ -69,31 +69,25 @@ display: inline-block;
     visibility: hidden;
 }
 #green {
-    background-color: greenyellow;
+    background-color: #7fff00;
 }
 #blue {
-    background-color: blue;
+    background-color: #0310ea;
 }
 #yellow {
-    background-color: yellow;
-}
-#orange {
-    background-color: orange;
-}
-#red {
-    background-color: red;
+    background-color: #fcf340;
 }
 #pink {
-    background-color: hotpink;
+    background-color: #fb33db;
 }
 /* main */
 
 main {
     width: 1500px;
     height: 800px;
-    background-color: rgba(255,255,255,0.50);
+    background-color: rgb(0, 255, 0, 0.50);
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 10%;
     right: 10%;
 }
@@ -101,7 +95,7 @@ main {
 h1 {
     position: absolute;
     top: 1%;
-    left: 30%;
+    left: 20%;
     color: black;
     ;
     font-size: 6rem;
@@ -121,7 +115,7 @@ section {
 .column {
     float: left;
     width: 20%;
-    background-color: lightblue;
+    background-color: #fcf340;
     border-radius: 25px;
     padding: .5rem 4rem;
     margin: 0 .5rem;
@@ -131,6 +125,9 @@ section {
     text-transform: uppercase;
     text-decoration: underline;
     color: lightseagreen;
+}
+p {
+    color: #0310ea;
 }
 
 footer {
