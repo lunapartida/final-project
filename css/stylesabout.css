@@ -38,7 +38,7 @@ header nav {
     
     header > h1 {
         font-size: 3.5rem;
-        text-align: end;
+        text-align: center;
         text-transform: uppercase;
         margin: 2rem 0;
         font-family:fantasy
@@ -95,7 +95,7 @@ main {
 h1 {
     position: absolute;
     top: 1%;
-    left: 35%;
+    left: 30%;
     color: black;
     ;
     font-size: 6rem;
@@ -109,13 +109,13 @@ section {
     position: absolute;
     margin: 3rem 2rem;
     top: 20%;
-    left: 25%;
+    left: 10%;
 }
 
 .column {
     float: left;
     width: 20%;
-    background-color: #fcf340;
+    background-color: lightblue;
     border-radius: 25px;
     padding: .5rem 4rem;
     margin: 0 .5rem;
@@ -125,9 +125,6 @@ section {
     text-transform: uppercase;
     text-decoration: underline;
     color: lightseagreen;
-}
-p {
-    color: #0310ea;
 }
 
 footer {
