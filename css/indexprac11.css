@@ -3,11 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 a {
     text-decoration: none;
     color: unset;
 }
-header {
+header > nav {
     height: 4rem;
 }
 
@@ -20,4 +23,34 @@ header>nav>ul>li {
     display: inline-block;
     border-radius: 25px;
     padding: .5rem 1rem;
+}
+
+header .hero_wrapper {
+    height: 480px;
+    position: relative;
+}
+header .hero_text_wrapper {
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+}
+header .hero_wrapper img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+footer {
+    height: 200px;
+    background-color: greenyellow;
+    text-align: center;
+}
+footer .row::after {
+    content: "";
+    clear: both;
+
+} 
+footer .column {
+    float: left;
+    width: 50%;
+    margin-top: 4rem;
 }
