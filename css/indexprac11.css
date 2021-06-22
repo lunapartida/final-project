@@ -44,11 +44,11 @@ footer {
     background-color: greenyellow;
     text-align: center;
 }
-footer .row::after {
+/* footer .row::after {
     content: "";
     clear: both;
 
-} 
+}  */
 footer .column {
     float: left;
     width: 50%;
