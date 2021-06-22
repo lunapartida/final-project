@@ -134,13 +134,20 @@ section {
 p {
     color: #0310ea;
 }
-
 footer {
-    height: 100px;
-    background-color: #cc6ea8fd;
+    height: 200px;
+    background-color: greenyellow;
     text-align: center;
 }
 
-footer p {
-    padding: 2.5rem 0;
+footer .columnfooter {
+    float: left;
+    width: 50%;
+    margin-top: 2rem;
 }
+footer .rowfinal::after {
+    content: "";
+    clear: both;
+    text-align: center;
+
+} 

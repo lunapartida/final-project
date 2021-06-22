@@ -89,7 +89,7 @@ main {
 
 h1 {
     position: absolute;
-    top: 0%;
+    top: -9%;
     left: 30%;
     color: black;
     ;
@@ -98,60 +98,23 @@ h1 {
 }
 
 /* ROW AND COLUMNS */
-h2 {
-    position: absolute;
-    top: 19%;
-    left: 13%;
-    color: black;
-    ;
-    font-size: 2rem;
-    font-style: italic;
-}
 
 section {
     position: absolute;
     margin: 3rem 2rem;
-    top: 25%;
-    left: 20%;
+    top: 10%;
+    left: 25%;
 }
 
 .column {
     float: left;
-    width: 70%;
+    width: 100%;
     background-color: #fcf340;
     border-radius: 25px;
-    padding: .5rem 4rem 3rem;
+    padding: 2rem;
     margin: 0 1rem;
 }
-section-two {
-    position: absolute;
-    text-align: center;
-    margin: 3rem 7rem;
-    top: -10%;
-    left: 105%;
-}
-.columntwo {
-    float: right;
-    width: 50%;
-    background-color: #fcf340;
-    border-radius: 25px;
-    padding: .5rem 3rem 12rem;
-    margin: 0 .5rem;
-}
-.column h3.heading {
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-align: center;
-    color: lightseagreen;
-}
-.columntwo h3.heading {
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-align: center;
-    color: lightseagreen;
-}
+
 form {
     padding: 2rem 2.5rem;
     background-color: #0310ea;
@@ -168,15 +131,21 @@ form>.form_group>select,
 form>.form_group>textarea {
     display: block;
 }
-p {
-}
 
 footer {
-    height: 100px;
-    background-color: #cc6ea8fd;
+    height: 200px;
+    background-color: greenyellow;
     text-align: center;
 }
 
-footer p {
-    padding: 2.5rem 0;
+footer .columnfooter {
+    float: left;
+    width: 50%;
+    margin-top: 2rem;
 }
+footer .rowfinal::after {
+    content: "";
+    clear: both;
+    text-align: center;
+
+} 
