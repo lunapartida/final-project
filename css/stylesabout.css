@@ -1,3 +1,10 @@
+/* GLOBAL */
+body {
+    font-family: 'Kaushan Script', cursive;
+}
+header {
+    font-family: 'Merriweather', serif;
+}
 
 /* HEADER SECTION */
 
@@ -22,8 +29,6 @@ header nav {
     border-radius: 20px;
     padding: .5rem 1.5rem;
     background-color:#7fff00;
-    font-weight:900;
-    font-family:cursive
     }
     
     header nav ul > li > a:hover {
@@ -41,8 +46,6 @@ header nav {
         text-align: center;
         text-transform: uppercase;
         margin: 2rem 0;
-        font-family:fantasy
-    
     }
 
 
@@ -95,7 +98,7 @@ main {
 h1 {
     position: absolute;
     top: 1%;
-    left: 30%;
+    left: 35%;
     color: black;
     ;
     font-size: 6rem;
@@ -109,7 +112,7 @@ section {
     position: absolute;
     margin: 3rem 2rem;
     top: 20%;
-    left: 10%;
+    left: 25%;
 }
 
 .column {
