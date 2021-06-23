@@ -10,7 +10,7 @@ header {
 header nav {
     background-color: yellow;
     color: orange;
-    height: 76px;
+    height: 80px;
     /* padding: 0 1rem; */
     }
 
@@ -135,7 +135,7 @@ form>.form_group>textarea {
 footer {
     height: 200px;
     background-color: greenyellow;
-    color: red;
+    color:black;
     text-align: center;
 }
 

@@ -11,7 +11,7 @@ header {
 header nav {
     background-color: yellow;
     color: orange;
-    height: 76px;
+    height: 80px;
     /* padding: 0 1rem; */
     }
     
@@ -87,7 +87,7 @@ display: inline-block;
 
 main {
     width: 1500px;
-    height: 800px;
+    height: 1280px;
     background-color: rgb(255, 0, 0, 0.50);
     position: absolute;
     top: 5%;
@@ -97,7 +97,7 @@ main {
 
 h1 {
     position: absolute;
-    top: 1%;
+    top: -4%;
     left: 2%;
     color: white;
     ;
@@ -110,18 +110,21 @@ h1 {
 
 section {
     position: absolute;
-    margin: 3rem 2rem;
-    top: 20%;
-    left: 10%;
+    margin: 3rem;
+    top: 12%;
+    left: 5%;
 }
 
 .column {
     float: left;
-    width: 20%;
+    clear: left;
+    left: 70%;
+    width: 85%;
     background-color: #fcf340;
     border-radius: 25px;
     padding: .5rem 4rem;
     margin: 0 .5rem;
+    text-align: center;
 }
 .column h2.heading {
     letter-spacing: 8px;
@@ -129,10 +132,17 @@ section {
     text-decoration: underline;
     color: lightseagreen;
 }
+main .column img {
+    width: 900px;
+    height: 700px;
+    float: center;
+    left: 90%;
+}
+
 footer {
     height: 200px;
     background-color: greenyellow;
-    color: red;
+    color:black;
     text-align: center;
 }
 

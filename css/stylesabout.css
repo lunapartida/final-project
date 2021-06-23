@@ -11,7 +11,7 @@ header {
 header nav {
     background-color: yellow;
     color: orange;
-    height: 76px;
+    height: 80px;
     /* padding: 0 1rem; */
     }
     
@@ -147,7 +147,7 @@ img {
 footer {
     height: 200px;
     background-color: greenyellow;
-    color: red;
+    color:black;
     text-align: center;
 }
 footer .columnfooter {
