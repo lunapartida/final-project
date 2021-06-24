@@ -114,7 +114,14 @@ section {
     top: 10%;
     left: -1%;
 }
+.row {
+    clear: both;
+}
+.row::after {
+    content:"";
+    clear: both;
 
+}
 .column {
     float: left;
     width: 15%;
@@ -158,6 +165,9 @@ footer .columnfooter {
 footer .columnfooter > img {
     width: 150px;
     height: 150px;
+    float: left;
+    padding-left: 4rem;
+    left: 1rem;
 }
 footer .rowfinal::after {
     content: "";

@@ -87,7 +87,7 @@ display: inline-block;
 
 main {
     width: 1500px;
-    height: 1280px;
+    height: 1260px;
     background-color: rgb(255, 0, 0, 0.50);
     position: absolute;
     top: 5%;
@@ -114,16 +114,22 @@ section {
     top: 12%;
     left: 5%;
 }
+.row {
+    clear: both;
+}
+.row::after {
+    content:"";
+    clear: both;
 
+}
 .column {
     float: left;
-    clear: left;
     left: 70%;
     width: 85%;
     background-color: #fcf340;
     border-radius: 25px;
     padding: .5rem 4rem;
-    margin: 0 .5rem;
+    margin: 1.5rem .5rem;
     text-align: center;
 }
 .column h2.heading {
@@ -155,6 +161,8 @@ footer .columnfooter > img {
     width: 150px;
     height: 150px;
     float: left;
+    padding-left: 4rem;
+    left: 1rem;
 }
 footer .rowfinal::after {
     content: "";
